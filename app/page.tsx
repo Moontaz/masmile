@@ -10,7 +10,7 @@ export default function HomePage() {
             <section className="relative mx-auto flex min-h-[calc(100vh-76px)] max-w-[1600px] flex-col justify-center py-6 pt-2 lg:py-20 lg:pb-6">
                <div className="absolute left-0 top-1/2 hidden -translate-y-1/2 lg:block">
                   <span className="hero-index text-[9px] uppercase tracking-[.18em] text-black/40">
-                     Creative browser instrument / 2024—now
+                     Creative browser instrument / 2026—now
                   </span>
                </div>
                <div className="max-w-[1500px] lg:pl-16">
@@ -146,7 +146,7 @@ export default function HomePage() {
                </div>
             </section>
             <footer className="mx-auto mt-28 flex max-w-[1600px] flex-col justify-between gap-4 border-t border-black/15 pt-5 text-[9px] uppercase tracking-[.14em] text-black/45 sm:flex-row">
-               <span>masmile © 2024—now</span>
+               <span>masmile © 2026—now</span>
                <span>Local processing / open experience</span>
             </footer>
          </div>
