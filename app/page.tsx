@@ -7,7 +7,7 @@ export default function HomePage() {
    return (
       <PageEntrance>
          <div className="site-grid min-h-screen px-5 pb-20 pt-[76px] md:px-10 md:pb-28">
-            <section className="relative mx-auto flex min-h-[calc(100vh-76px)] max-w-[1600px] flex-col justify-center py-20 pt-2 lg:py-20">
+            <section className="relative mx-auto flex min-h-[calc(100vh-76px)] max-w-[1600px] flex-col justify-center py-6 pt-2 lg:py-20 lg:pb-6">
                <div className="absolute left-0 top-1/2 hidden -translate-y-1/2 lg:block">
                   <span className="hero-index text-[9px] uppercase tracking-[.18em] text-black/40">
                      Creative browser instrument / 2024—now
