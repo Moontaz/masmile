@@ -14,28 +14,29 @@ Semua proses deteksi berjalan secara lokal di browser. Frame webcam tidak dikiri
 - Estimasi intensitas senyum dari `0` sampai `100` menggunakan geometri facial landmarks.
 - Smoothing score agar angka tidak berubah secara kasar setiap frame.
 - State deteksi yang jelas:
-  - `Camera off`
-  - `Initializing`
-  - `No face`
-  - `Face detected`
-  - `Analyzing`
-  - `Slight smile`
-  - `Smiling`
-  - `Big smile`
-  - `Smile detected`
-  - `Detection unavailable`
+   - `Camera off`
+   - `Initializing`
+   - `No face`
+   - `Face detected`
+   - `Analyzing`
+   - `Slight smile`
+   - `Smiling`
+   - `Big smile`
+   - `Smile detected`
+   - `Detection unavailable`
 - Event `Smile detected` dengan cooldown agar tidak terpicu di setiap frame.
 - Capture moment dari frame webcam saat ini.
 - Modal hasil capture dengan pilihan:
-  - Retake
-  - Save image
-  - Close dengan tombol atau `Escape`
+   - Retake
+   - Save image
+   - Close dengan tombol atau `Escape`
 - Session history yang menyimpan event selama sesi browser aktif.
 - Statistik sesi:
-  - Best smile
-  - Average score
-  - Total smile events
+   - Best smile
+   - Average score
+   - Total smile events
 - Halaman editorial Home, Detector, About, dan custom 404.
+- Interactive 3D card flip di hero: kartu berotasi mengikuti kursor dengan perspective transform dan efek glare (hanya pointer fine, otomatis nonaktif saat `prefers-reduced-motion`).
 - Page entrance, route transition, scroll reveal, modal transition, custom cursor desktop, dan responsive mobile navigation menggunakan GSAP.
 - Dukungan `prefers-reduced-motion`.
 - Layout tajam tanpa rounded card atau pill UI.
@@ -161,12 +162,12 @@ Threshold ini adalah konfigurasi visual untuk pengalaman interaktif, bukan stand
 
 ## Routes
 
-| Route | Deskripsi |
-| --- | --- |
-| `/` | Homepage dan pengantar pengalaman |
-| `/detector` | Fitur webcam, face detection, smile analysis, capture, dan session stats |
-| `/about` | Penjelasan singkat pipeline teknis dan privacy |
-| Route tidak ditemukan | Custom animated 404 |
+| Route                 | Deskripsi                                                                |
+| --------------------- | ------------------------------------------------------------------------ |
+| `/`                   | Homepage dan pengantar pengalaman                                        |
+| `/detector`           | Fitur webcam, face detection, smile analysis, capture, dan session stats |
+| `/about`              | Penjelasan singkat pipeline teknis dan privacy                           |
+| Route tidak ditemukan | Custom animated 404                                                      |
 
 ## Menjalankan secara lokal
 
@@ -275,5 +276,6 @@ Architecture realtime sengaja dipisahkan dari React UI:
 ## Lisensi
 
 Project ini dibuat sebagai creative frontend and computer-vision experiment. Tambahkan lisensi repository yang sesuai kebutuhan sebelum dipublikasikan secara resmi.
-#   m a s m i l e  
+#   m a s m i l e 
+ 
  
